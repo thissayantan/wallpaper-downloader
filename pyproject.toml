@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "wallpaper-downloader"
+version = "0.1.0"
+description = "A Python script for automatically downloading wallpapers from Unsplash."
+authors = ["Sayantan <this.sayantan@gmail.com>"]
+readme = "README.md"
+packages = [{include = "wallpaper_downloader"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
